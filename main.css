@@ -4,14 +4,24 @@
   margin: 0;
 }
 
+
+
+
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+
 .container {
-  border: 2px #000000;
-  border: 2px #000000;
-  width: 100vw;
+  width: 60vw;
   font-family: 'Teko', sans-serif;
   height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
 
@@ -36,11 +46,10 @@ h1{
 }
 
 
-.box-4 {
-  background-image: url("images/bounty-hunters3.jpg");
-}
+
 
 body {
+ 
   color: #8AA29E;
 }
 
@@ -75,13 +84,17 @@ body {
 }
 
 .box-4 {
-  grid-row: 1 / span 3;
-  grid-column: 4 / span 2;
+  
+  background-image: url("images/bounty-hunters3.jpg");
+  width: 40vw;
   object-fit: contain;
   max-height: 100%;
   max-width: 100%;
   overflow-y: hidden;
   overflow-x: hidden;
+  position: absolute;
+  right: 0
+ 
 }
 
 
