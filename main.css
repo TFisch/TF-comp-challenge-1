@@ -213,15 +213,15 @@ button img {
 }
 
 .buttons {
-  margin-top: 5%;
   margin-bottom: 2%;
+  margin-top: 5%;
 }
 
 .carousel-left{
   height: 20vh;
-  width: 5vh;
   margin: 40vh 8vw 1vh 8vw;
   position: absolute;
+  width: 5vh;
   z-index: 1;
   
 }
@@ -232,12 +232,12 @@ button img {
 
 
 .carousel-right{
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
   height: 20vh;
-  width: 5vh;
   margin: 40vh 14vw 1vh 32vw;
   position: absolute;
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  width: 5vh;
   z-index: 1;
 }
 
@@ -247,13 +247,46 @@ button img {
 
 
 .big-hunters{
-   z-index: auto;
    position: absolute;
+   z-index: auto;
+}
+
+.dot{
+  height: 1px;
+  width: 1px;
+  background-color: #bbb;
+  border-radius: 50%;
+  position: absolute; 
+  z-index: 1;
+  margin-left: 35vw;
+  margin-top:  2vh;
+}
+
+
+.second-dot{
+  margin-left: 33.6vw;
+  background-color: #bbb;;
+}
+
+.third-dot{
+  margin-left: 36.4vw;
+  background-color: #8D99AE;
+  opacity: 80%;
 }
 
 
 
-@media screen and (max-width: 800) {
-  .container{ visibility: hidden;
+
+@media screen and (max-width: 800px) {
+  .wrapper{ width: 10%;
+            
+          height: 10%;
   }
 }
+
+
+
+
+
+
+
