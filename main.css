@@ -136,6 +136,7 @@ h1{
   background-color: #598392;
 }
 
+<<<<<<< Updated upstream
 .box-5 {
   background-color: #2E2E2E;
 }
@@ -150,6 +151,14 @@ h1{
 
 .box-8 {
   background-color: #686963;
+=======
+.portrait {
+  background-image: url('images/bounty-hunters3.jpg');
+  width: 40vw;
+  height: 100vh;
+  position: absolute;
+  right: 0; 
+>>>>>>> Stashed changes
 }
 
 .img {
@@ -184,8 +193,9 @@ h1{
 
 .carousel-left{
   height: 20vh;
-  margin: 40vh 8vw 1vh 8vw;
   position: absolute;
+  left: 20px;
+  top: 300px;
   width: 5vh;
   z-index: 1;
 }
@@ -197,10 +207,11 @@ h1{
 
 .carousel-right{
   height: 20vh;
-  margin: 40vh 14vw 1vh 32vw;
   position: absolute;
+  right: 20px;
   transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
+  top: 300px;
   width: 5vh;
   z-index: 1;
 }
@@ -221,29 +232,54 @@ h1{
   border-radius: 50%;
   position: absolute; 
   z-index: 1;
-  margin-left: 35vw;
-  margin-top:  2vh;
+
+}
+
+.first-dot{
+  background-color: #bbb;
+  position: absolute;
+  top: 20px;
+  right: 60px;
 }
 
 .second-dot{
-  margin-left: 33.6vw;
-  background-color: #bbb;;
+  background-color: #8D99AE ;
+  position: absolute;
+  top: 20px;
+  right: 38px;
 }
 
 .third-dot{
-  margin-left: 36.4vw;
+ 
   background-color: #8D99AE;
   opacity: 80%;
+  top: 20px;
+  right: 16.5px;
 }
 
 
 
 
+<<<<<<< Updated upstream
 @media screen and (max-width: 800px) {
   .wrapper{ 
             
         
   }
+=======
+
+@media screen and (max-width: 1050px) {
+
+
+
+
+
+  .portrait{
+    width: 20vw;
+    height: 30vh;
+  } 
+  
+>>>>>>> Stashed changes
 }
 
 
