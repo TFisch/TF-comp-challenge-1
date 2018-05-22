@@ -45,14 +45,14 @@ button img {
 }
 
 .bounty-hunters-heading {
- font-size: 2em;
+ font-size: 3em;
  margin-left: 10px;
  margin-right: 1em;
  margin-right: 1em;
 }
 
 .vader-quote {
-  font-size: 1.5em;
+  font-size: 30px;
   margin-left: 2%;
   margin-top: 6%;
 }
@@ -181,7 +181,7 @@ button img {
   height: 20vh;
   left: 20px;
   position: absolute;
-  top: 250px;
+  top: 275px;
   width: 5vh;
   z-index: 1;
 }
@@ -194,7 +194,7 @@ button img {
   height: 20vh;
   right: 20px;
   position: absolute;
-  top: 250px;
+  top: 275px;
   transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
   width: 5vh;
@@ -267,7 +267,7 @@ button img {
 .vader-quote {
   font-size: 1.5em;
   margin-left: 2%;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 
   
