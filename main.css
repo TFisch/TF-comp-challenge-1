@@ -1,14 +1,9 @@
 
 
-body {
-  color: 000000;
-}
-
 button {
   background-color: #CADBC8;
   border: 2px solid;
-  border-color: 000000;
-  color: 000000;
+  color: #0D1F2D;
   font-family: 'Teko', sans-serif;
   font-size: 16px;
   padding: 8px;
@@ -45,13 +40,14 @@ button img {
 }
 
 .bounty-hunters-heading {
- font-size: 3em;
+  color: #0D1F2D;
+  font-size: 3em;
  margin-left: 10px;
- margin-right: 1em;
  margin-right: 1em;
 }
 
 .vader-quote {
+  color: #0D1F2D;
   font-size: 30px;
   margin-left: 2%;
   margin-top: 6%;
@@ -63,7 +59,7 @@ button img {
 }
 
 .block-description {
-  color: #000000;
+  color: #0D1F2D;
   display: block;
   padding-top: 10%;
   text-align: center;
@@ -206,6 +202,7 @@ button img {
   background-color: #598392;
   border-radius: 50%;
   position: absolute; 
+  top: 10px;
   z-index: 1;
   
 }
@@ -213,26 +210,20 @@ button img {
 .first-dot{
   background-color: #CADBC8;
   right: 50px;
-  top: 35px;
+
 }
 
 .second-dot{
   background-color: #CADBC8;
   right:29px;
-  top: 35px;
+
 }
 
 .third-dot{
   background-color: #598392;
   right: 8px;
-  top: 35px;
-  }
 
-@media screen and (max-width: 1190px) {
-  .wrapper{ 
-    display: flex; 
-   flex-direction: column;
- }
+  }
 
 @media screen and (max-width: 1190px) {
 
@@ -279,15 +270,16 @@ button img {
   }
 
   .icon {
-  max-height: 20%;
-  max-width: 20%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10%;
-  display: flex;
+    max-height: 20%;
+    max-width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    display: flex;
   align-items: center;
   justify-content: center;
+}
+
 }
 
 @media screen and (max-width: 570px) {
