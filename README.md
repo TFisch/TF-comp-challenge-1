@@ -13,11 +13,7 @@ A very responsive layout of Star Wars Bounty Hunters.
  "Logo Title Text 1")
 
 
-
-![Alt text](.images/static-comp-challenge-one.jpg
- "Optional Title")
-
-![alt text](https://github.com/TFisch/TF-comp-challenge-1/blob/master/images/SC1
+![alt text](https://github.com/TFisch/TF-comp-challenge-1/blob/master/images/SC1.png
  "Logo Title Text 1")
 
 
