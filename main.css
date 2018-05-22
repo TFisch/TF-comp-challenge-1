@@ -5,17 +5,13 @@ body {
 }
 
 button {
-  background-color: #549F93;
+  background-color: #CADBC8;
   border: 2px solid;
   border-color: 000000;
   color: 000000;
   font-family: 'Teko', sans-serif;
   padding: 8px;
   font-size: 16px;
-}
-
-button:hover {
-  color: #D40000;
 }
 
 button img {
@@ -45,7 +41,7 @@ button img {
 .box-1 {
   grid-row: 1 / span 1;
   grid-column: 1 / span 2;
-  background-color: #549F93;
+  background-color: #CADBC8;
 }
 
 .bounty-hunters-heading {
@@ -100,7 +96,7 @@ button img {
 }
 
 .box-5 {
-  background-color: #549F93;
+  background-color: #CADBC8;
 }
 
 .box-5:hover{
@@ -204,7 +200,7 @@ button img {
 .dot{
   height: 1px;
   width: 1px;
-  background-color: #bbb;
+  background-color: #598392;
   border-radius: 50%;
   position: absolute; 
   z-index: 1;
@@ -212,20 +208,20 @@ button img {
 }
 
 .first-dot{
-  background-color: #bbb;
+  background-color: #CADBC8;
   right: 50px;
   top: 35px;
 }
 
 .second-dot{
-  background-color: #bbb;
+  background-color: #CADBC8;
   right:29px;
   top: 35px;
 }
 
 .third-dot{
-  background-color: #8D99AE;
-  right: 9px;
+  background-color: #598392;
+  right: 8px;
   top: 35px;
   
 }
@@ -238,6 +234,7 @@ button img {
 
   .wrapper{
     display: flex;
+    flex-direction: column;
   }
   
 
@@ -296,6 +293,16 @@ button img {
   align-items: center;
   justify-content: center;
 }
+
+
+@media screen and (max-width: 570px) {
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+
+
 
 
 
